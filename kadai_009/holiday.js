@@ -3,14 +3,14 @@ const holidays = ["正月", "成人の日", "建国記念日", "天皇誕生日"
 
 // for文を利用した記述
 console.log('<for文を利用した場合>')
-for (let i = 0; i <= holidays.length; i++) {
+for (let i = 0; i < holidays.length; i++) {
     console.log(holidays[i]);
 }
 
 // while文を利用した記述
 console.log('<while文を利用した場合>')
 let i = 0;
-while (i <= holidays.length) {
+while (i < holidays.length) {
     console.log(holidays[i]);
     i++;
 }
